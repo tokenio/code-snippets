@@ -1,0 +1,1 @@
+{"memberId":"m:2TwL7rRdvW3ZibnghMLx4qFRmnK7:5zKtXEAq","operations":[{"addKey":{"key":{"algorithm":"ED25519","id":"XbZvL--sw5tc8fpN","level":"PRIVILEGED","publicKey":"3LR0lc6IC_wZpi9TOs2Fp4Zg_IxtbMnGW6E7D-0AIb8"}}}],"prevHash":"SIRxPeQZLR_WRYSckgJ9A8KBNTkomBZXTNYltVRhQk4"}
