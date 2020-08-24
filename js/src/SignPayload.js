@@ -39,7 +39,7 @@ export default class SignPayload extends Component {
 
     handleClick = async () => {
         const forgeSignature = forge.pki.ed25519.sign({
-            message: stringify(this.state.form.payload),
+            message: stringify(JSON.parse(this.state.form.payload)),
             encoding: 'binary',
             privateKey: bufferKey(this.state.form.privateKey),
         });
@@ -75,7 +75,7 @@ export default class SignPayload extends Component {
                                 </Grid>
 
                                 <Grid item xs={12}>
-                                    <TextField label="Payload" value={this.state.form.alias}
+                                    <TextField label="Payload" value={this.state.form.payload}
                                                name="payload"
                                                multiline
                                                rows={10}

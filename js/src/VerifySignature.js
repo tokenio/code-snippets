@@ -60,10 +60,10 @@ export default class VerifySignature extends Component {
         };
 
         const forgeVerify = forge.pki.ed25519.verify({
-            message: stringify(this.state.form.signature),
+            message: stringify(JSON.parse(this.state.form.payload)),
             encoding: 'binary',
             publicKey: forgeKeys.publicKey,
-            signature: bufferKey(this.state.form.payload),
+            signature: bufferKey(this.state.form.signature),
         });
 
         debugger;
