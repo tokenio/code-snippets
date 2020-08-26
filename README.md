@@ -8,6 +8,7 @@ Intended to provide examples on how to encrypt and verify payloads
 
 ### How to use
 * cd into the js folder - `cd js`
+* install dependencies - `npm install`
 * run - `npm run start`
 * the tool will be hosted in `localhost:3000`
 
